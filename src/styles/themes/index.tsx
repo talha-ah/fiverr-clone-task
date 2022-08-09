@@ -35,7 +35,7 @@ export default function ThemeCustomization({
         },
       },
       shape: {
-        borderRadius: 4,
+        borderRadius: 0,
       },
       palette: Palette(state.auth.theme),
       typography: Typography,

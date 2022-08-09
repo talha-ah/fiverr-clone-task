@@ -20,7 +20,10 @@ export default function Button(theme) {
           // ...disabledStyle,
         },
         outlined: {
-          // ...disabledStyle,
+          fontWeight: 400,
+          textTransform: "none",
+          borderRadius: theme.shape.borderRadius,
+          borderColor: theme.palette.common.white,
         },
       },
     },

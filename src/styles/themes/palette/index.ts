@@ -13,14 +13,14 @@ const Palette = (mode: ThemeMode) => {
       white,
       black,
     },
-    // primary: {
-    //   main: colors.blue[5],
-    //   contrastText,
-    // },
-    // secondary: {
-    //   main: "#ff9800",
-    //   contrastText,
-    // },
+    primary: {
+      main: "#f16232",
+      contrastText,
+    },
+    secondary: {
+      main: "#4387f4",
+      contrastText,
+    },
     // background: {
     // paper: white,
     // default: colors.grey[0],
