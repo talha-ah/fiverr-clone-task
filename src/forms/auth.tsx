@@ -96,10 +96,10 @@ export function LoginForm() {
           id="password"
           autoComplete="current-password"
         />
-        <FormControlLabel
+        {/* <FormControlLabel
           control={<Checkbox value="remember" color="primary" />}
           label="Remember me"
-        />
+        /> */}
         <Alert type="error" message={error} />
         <Button type="submit" sx={{ mt: 4 }} fullWidth loading={loading}>
           Sign In
@@ -222,10 +222,10 @@ export function Registerform() {
             />
           </Grid>
           <Grid item xs={12}>
-            <FormControlLabel
+            {/* <FormControlLabel
               control={<Checkbox value="allowExtraEmails" color="primary" />}
               label="I want to receive updates"
-            />
+            /> */}
           </Grid>
         </Grid>
         <Alert type="error" message={error} />
