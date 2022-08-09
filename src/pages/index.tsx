@@ -159,11 +159,13 @@ const NavBar = () => {
           }}
         >
           {pages.map((page) => (
-            <Link key={page} href="/">
+            <Link key={page} href="/" sx={{ marginLeft: 0 }}>
               {page}
             </Link>
           ))}
-          <Button style={{ backgroundColor: "transparent" }}>Log In</Button>
+          <Button style={{ backgroundColor: "transparent", marginLeft: 0 }}>
+            Log In
+          </Button>
         </Box>
       </Drawer>
     </div>
